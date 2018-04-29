@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--標題-->
+    <EditText
+        android:text="TextView"
+        android:gravity="center"
+        android:inputType="text"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewItemTitle"
+        android:textSize="40sp"/>
+
+    <!--倒數日-->
+    <TextView
+        android:text="800"
+        android:gravity="center"
+        android:textColor="@color/red"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewItemDay"
+        android:textSize="60sp"/>
+
+    <!--當初設定日期-->
+    <TextView
+        android:text="TextView"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewItemTime"
+        android:textSize="25sp"/>
+
+    <!--備註-->
+    <EditText
+        android:text="TextView"
+        android:gravity="center"
+        android:inputType="text"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewItemContent"
+        android:textSize="30sp"/>
+
+</LinearLayout>

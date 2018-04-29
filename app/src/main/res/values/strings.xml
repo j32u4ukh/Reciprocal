@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">日期-計算器</string>
+    <string name="add_event">新增事件</string>
+    <string name="update">更新</string>
+    <string name="delete">刪除</string>
+
+
+
+    <string name="textViewShowTime">Time you choose</string>
+    <string name="buttonChooseTime">Choose Time</string>
+
+    <!--新增事件layout  activity_add_event-->
+    <string name="textViewTitle">標題</string>
+    <string name="editTextTitle">輸入標題</string>
+    <string name="textViewDate">日期</string>
+    <string name="textViewSort">分類</string>
+    <string name="textViewSortKind">預設</string>
+    <string name="switchRepeat">重複</string>
+    <string name="textViewNote">備註</string>
+    <string name="editTextNote">輸入備註</string>
+
+    <!--新增事件Button-->
+    <string name="buttonComplete">完成</string>
+    <string name="buttonBack">返回</string>
+
+    <!--Count-->
+    <string name="from">從</string>
+    <string name="start">開始</string>
+    <string name="distance">距離</string>
+    <string name="with">有</string>
+    <string name="defult">0</string>
+</resources>

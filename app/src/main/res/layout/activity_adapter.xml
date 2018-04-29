@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--標題顯示-->
+    <TextView
+        android:text=""
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:paddingStart="@dimen/default_padding"
+        android:paddingEnd="@dimen/default_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/textViewShowTitle"
+        android:layout_weight="2"
+        android:background="@color/soft_green"/>
+
+    <!--倒數日顯示-->
+    <TextView
+        android:text=""
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:paddingStart="@dimen/default_padding"
+        android:paddingEnd="@dimen/default_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/textViewShowTime"
+        android:layout_weight="1"
+        android:background="@color/red"/>
+
+</LinearLayout>
